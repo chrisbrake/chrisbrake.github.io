@@ -1,8 +1,27 @@
 body {
     font-family: "Lucida Console", Monaco, monospace;
-    font-size: 5vw;
+    font-size: 2vw;
+}
+
+ul {
+    list-style-type:none
+}
+
+.task {
+    list-style-type:circle
+}
+
+.task-detail{
+    list-style-type:square
 }
 
 .contact-info {
     font-size: 5vw;
+}
+
+.work-history {
+    font-size: 2vw;
+}
+
+.work-history-details {
 }

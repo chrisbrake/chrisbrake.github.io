@@ -3,7 +3,11 @@ body {
     font-size: 2vw;
 }
 
-ul {
+.contact-info {
+    font-size: 5vw;
+}
+
+.job {
     list-style-type:none
 }
 
@@ -15,13 +19,6 @@ ul {
     list-style-type:square
 }
 
-.contact-info {
-    font-size: 5vw;
-}
+.work-history {}
 
-.work-history {
-    font-size: 2vw;
-}
-
-.work-history-details {
-}
+.work-history-title {}

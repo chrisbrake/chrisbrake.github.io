@@ -1,24 +1,57 @@
+html {
+    background-color: #B56357;
+    font-family: monospace;
+    font-size: 1vw;
+    color: #EAE3EA;
+}
+
 body {
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 2vw;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+a {
+    color: #A7B3A5;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 .contact-info {
-    font-size: 5vw;
+    font-size: 4em;
+    grid-column: 2;
 }
 
 .job {
-    list-style-type:none
+    list-style-type:none;
 }
 
+.job-company {
+    font-weight: bold;
+}
+
+.job-title {}
+
 .task {
-    list-style-type:circle
+    list-style-type:circle;
 }
 
 .task-detail{
-    list-style-type:square
+    list-style-type:square;
 }
 
-.work-history {}
+.work-history {
+    font-size: 2em;
+    color: #233237;
+    background-color: #EAE3EA;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
-.work-history-title {}
+.work-history-title {
+    background-color: #A7B3A5;
+    color: #B56357;
+    border-radius: 5px;
+}

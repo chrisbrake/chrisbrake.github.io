@@ -1,58 +1,58 @@
 html {
-    background-color: #B56357;
-    font-family: monospace;
-    font-size: 1vw;
-    color: #EAE3EA;
+  background-color: #B56357;
+  font-family: monospace;
+  font-size: 1vw;
+  color: #EAE3EA;
 }
 
 body {
-    display: grid;
-    grid-template-columns: 7fr 3fr;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
 }
 
 a {
-    color: #A7B3A5;
+  color: #A7B3A5;
 }
 
 a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .contact-info {
-    font-size: 4em;
-    grid-column: 2;
+  font-size: 4em;
+  grid-column: 2;
 }
 
 .job {
-    list-style-type:none;
+  list-style-type:none;
 }
 
 .job-company {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .job-title {}
 
 .task {
-    list-style-type:circle;
+  list-style-type:circle;
 }
 
 .task-detail{
-    list-style-type:square;
+  list-style-type:square;
 }
 
 .work-history {
-    font-size: 2em;
-    color: #233237;
-    background-color: #EAE3EA;
-    border-radius: 5px;
-    grid-column-start: 1;
-    grid-column-end: 3;
+  font-size: 2em;
+  color: #233237;
+  background-color: #EAE3EA;
+  border-radius: 5px;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .work-history-title {
-    font-size: 1.5em;
-    background-color: #A7B3A5;
-    color: #B56357;
-    border-radius: 5px;
+  font-size: 1.5em;
+  background-color: #A7B3A5;
+  color: #B56357;
+  border-radius: 5px;
 }
